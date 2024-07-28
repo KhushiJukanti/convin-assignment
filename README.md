@@ -76,7 +76,6 @@ MONGO_URI=your_mongodb_uri
 ```
 
 ### 4. Start the Server
-Create a .env file in the root directory and add your MongoDB URI:
 
 ```bash
 node index.js
