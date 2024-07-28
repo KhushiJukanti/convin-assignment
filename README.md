@@ -32,6 +32,8 @@ Design and implement a backend for a daily-expenses sharing application. This ap
 - Show individual expenses.
 - Show overall expenses for all users.
 - Provide a feature to download the balance sheet.
+![WhatsApp Image 2024-07-28 at 9 37 29 PM](https://github.com/user-attachments/assets/ae201ab5-a932-4345-8468-835a679cd2aa)
+
 
 ## API Endpoints
 
