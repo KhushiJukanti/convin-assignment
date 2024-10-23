@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const ExpenseController = require('../controllers/expense')
 
+
+// addexpense routes
 router.post('/', ExpenseController.addExpense);
 
 router.get('/user/:userId', ExpenseController.userExpense);

@@ -15,7 +15,7 @@ const createUser = async (req, res) => {
 const getAllUser = async (req, res) => {
     try {
         const user = await User.find()
-        res.status(200).json(user)
+        res.status(201).json(user)
     } catch (error) {
         console.log('There is an error:', error)
         res.status(500).json({ message: "server error" })

@@ -15,7 +15,7 @@ const addExpense = async (req, res) => {
 const userExpense = async (req, res) => {
     try {
         const expenses = await Expense.find({ participants: req.params.userId });
-        res.json(expenses);
+        res.status(201).json(expenses);
     } catch (error) {
         res.status(400).json({ error: error.message });
     }
@@ -24,7 +24,7 @@ const userExpense = async (req, res) => {
 const getAllExpense = async (req, res) => {
     try {
         const expenses = await Expense.find();
-        res.json(expenses);
+        res.status(201).json(expenses);
     } catch (error) {
         res.status(400).json({ error: error.message });
     }
